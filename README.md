@@ -47,3 +47,32 @@ Make sure you have the following installed:
 ```bash
 node -v
 npm -v
+
+### 🚀 Deploy to Vercel
+
+Push your code to GitHub.
+
+Go to Vercel
+ and import the repository.
+
+Make sure build settings are:
+
+Framework: Create React App
+Build Command: npm run build
+Output Directory: build
+
+
+(Optional) If you have peer dependency issues, set an environment variable in Vercel:
+
+NPM_FLAGS=--legacy-peer-deps
+
+📁 Project Structure
+📦public  
+📦src  
+ ┣ 📂components  
+ ┣ 📂pages  
+ ┣ App.js  
+ ┣ index.js  
+package.json  
+README.md
+
